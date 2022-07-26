@@ -1,0 +1,39 @@
+body{
+  background:rgb(160, 175, 182);
+  color:#fff;
+}
+main{
+  width: 300px;
+  margin: 50px auto 0;
+}
+div.board{
+  width: 385px;
+  height: 685px;
+  display: flex;
+  flex-wrap: wrap; ;
+}
+div.square{
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(207, 193, 218);
+  border-radius: 3px;
+  background-color: rgb(235, 165, 161);
+  margin: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  
+}
+div.result{
+  font-size: 2rem;
+  padding: 10px;
+}
+div.result.green{
+  background-color: rgb(5, 66, 5);
+}
+div.result.red{
+  background-color: rgb(83, 17, 17);
+}
